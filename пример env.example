@@ -1,0 +1,29 @@
+# === Paths ===
+DB_PATH=discordboost.db
+
+# === Concurrency ===
+MAX_WORKERS=100
+MAX_PER_PROXY=3
+BATCH_SIZE=500
+QUEUE_SIZE=1000
+
+# === HTTP ===
+REQUEST_TIMEOUT=15
+MAX_RETRIES=3
+
+# === Delays (seconds, float) ===
+MIN_DELAY=0.5
+MAX_DELAY=2.0
+
+# === Captcha (2captcha.com) ===
+CAPTCHA_API_KEY=
+CAPTCHA_POLL_INTERVAL=5
+CAPTCHA_TIMEOUT=120
+
+# === Proxy health ===
+PROXY_MAX_FAILS=5
+PROXY_BLOCK_DURATION=300
+
+# === Logging ===
+LOG_LEVEL=INFO
+LOG_FILE=discordboost.log
